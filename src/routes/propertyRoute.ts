@@ -7,7 +7,7 @@
     getPropertyById,
     updateProperty,
     deleteProperty
-  } from '../controllers/propertyController';
+  } from '../controllers/propertycontrollers';
   import { authMiddleware } from '../middlewares/authMiddleware';
 
   const upload = multer({ storage: multer.memoryStorage() });

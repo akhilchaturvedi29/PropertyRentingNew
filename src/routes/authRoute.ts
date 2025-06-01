@@ -4,7 +4,7 @@ import {
   login,
   getCurrentUser,
   logout
-} from '../controllers/authController';
+} from '../controllers/Controllers';
 import { authMiddleware } from '../middlewares/authMiddleware';
 
 const router = express.Router();

@@ -3,7 +3,7 @@ import {
   addFavorite,
   removeFavorite,
   getUserFavorites,
-} from '../controllers/favoriteController';
+} from '../controllers/favoritecontrollers';
 import { authMiddleware } from '../middlewares/authMiddleware';
 
 const router = express.Router();

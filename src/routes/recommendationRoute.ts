@@ -2,7 +2,7 @@ import express from 'express';
 import {
   recommendProperty,
   getReceivedRecommendations,
-} from '../controllers/recommendationController';
+} from '../controllers/recommendationcontrollers';
 import { authMiddleware } from '../middlewares/authMiddleware';
 
 const router = express.Router();
